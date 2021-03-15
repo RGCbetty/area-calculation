@@ -1,0 +1,40 @@
+{
+  "name": "hrd-dtx-system",
+  "version": "1.0.1",
+  "description": "DTX Extraction and Auto Computation System",
+  "main": "app.js",
+  "scripts": {
+    "install-service": "winser -i -a",
+    "uninstall-service": "winser -r -x"
+  },
+  "keywords": [
+    "dtx",
+    "api",
+    "extraction",
+    "computation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "iconv-lite": "^0.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "lodash": "^4.17.15",
+    "md5": "^2.2.1",
+    "mssql": "^6.2.3",
+    "multer": "^1.4.2",
+    "nano": "^8.1.0",
+    "numeral": "^2.0.6",
+    "papaparse": "^5.1.1",
+    "pdfmake": "^0.1.68",
+    "string-pixel-width": "^1.10.0",
+    "winser": "^1.0.3",
+    "xlsx": "^0.15.5"
+  }
+}

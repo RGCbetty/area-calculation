@@ -1,0 +1,12 @@
+{
+  "port": 7060,
+  "api": {
+    "dtx": "/dtx",
+    "dxf": "/dxfapi",
+    "csv": "/csvapi",
+    "xls": "/xlsapi",
+    "db": "/db",
+    "areaCalc": "/areacalculation",
+    "download": "/download"
+  }
+}

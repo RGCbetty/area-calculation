@@ -1,0 +1,11 @@
+{
+  "domain": "http://hrdapps68/dtx",
+  "api": {
+    "name": "/api",
+    "dtx": "/dtx",
+    "csv": "/csvapi",
+    "xls": "/xlsapi",
+    "db": "/db",
+    "download": "/download"
+  }
+}
